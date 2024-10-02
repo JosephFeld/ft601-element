@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b1f48e76-bf35-4b9e-b595-1a76a375ab4e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 35.56 33.02)
+		(size 72.39 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d410334-576a-412a-afe0-5f40d6d0854f")
+		(property "Sheetname" "FT601"
+			(at 35.56 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ft601.kicad_sch"
+			(at 35.56 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ft601-shield"
+				(path "/b1f48e76-bf35-4b9e-b595-1a76a375ab4e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 34.29)
+		(size 85.09 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8237698-7ef2-4212-9cd2-42bd5d3e1432")
+		(property "Sheetname" "Alchitry IO"
+			(at 172.72 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alchitry-io.kicad_sch"
+			(at 172.72 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ft601-shield"
+				(path "/b1f48e76-bf35-4b9e-b595-1a76a375ab4e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
